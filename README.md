@@ -1,4 +1,4 @@
 # gbi
 Government by Ideas
 
-documentation: <a href="http://htmlpreview.github.com/?https://github.com/govbyideas/gbi/edit/master/gbi.html">gbi.html</a>
+documentation: <a href="https://htmlpreview.github.com/?https://github.com/govbyideas/gbi/blob/master/gbi.html">Government by Ideas</a>
