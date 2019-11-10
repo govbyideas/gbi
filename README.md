@@ -21,7 +21,7 @@ unrestrictive for any development branch,
 - or the issue owner (or a group of persons) decides to fork this repository and create their own version
 of this document. I will then add below a pointer to this fork with a description that characterize
 the reason of the fork,
-- or the issue will be closed because after discussion the proposal does finally matches its place in the
+- or the issue will be closed because after discussion the proposal does finally not matches its place in the
 seed document and the author's issue either changed his mind or has not the will to develop his point of view.
 
 Such forks may well evolve and be much more elaborated than this original seed document. This is in fact
