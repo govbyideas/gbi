@@ -32,7 +32,7 @@ seed document and the author's issue either changed his mind or has not the will
 Such forks may well evolve and be much more elaborated than this original seed document. This is in fact
 the intention of this seed: to serve as root to create different fruits. But this seed version (or branch)
 can also receive contributions (if agreed by his author) and then become very elaborated too. I suggest
-using the [pull_requests](https://github.com/govbyideas/gbi/pulls) above for that after having (temporarily or not)
+using the [pull requests](https://github.com/govbyideas/gbi/pulls) above for that after having (temporarily or not)
 forked the repository.
 
 ## Forks
