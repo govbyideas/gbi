@@ -17,7 +17,7 @@ matches their taste.
 
 I suggest using the [Issues menu](https://github.com/govbyideas/gbi/issues)
 above to create discussions (or report typos...). But before creating
-your issue, check that one is not already open about your point, you should be able to participate
+your own issue, check that one is not already open about your point, you should be able to participate
 in any open issues and its related discussion.
 
 At a time, any issue will be closed. I see different fates but this is not limitative:
@@ -32,9 +32,9 @@ seed document and the author's issue either changed his mind or has not the will
 Such forks may well evolve and be much more elaborated than this original seed document. This is in fact
 the intention of this seed: to serve as root to create different fruits. But this seed version (or branch)
 can also receive contributions (if agreed by his author) and then become very elaborated too. I suggest
-using the [pull_requests](https://github.com/govbyideas/gbi/pulls) above for that after having (temporarily)
-forked the repository which fork you can deleted once the pull request will be accepted.
+using the [pull_requests](https://github.com/govbyideas/gbi/pulls) above for that after having (temporarily or not)
+forked the repository.
 
 ## Forks
-here is expected to take place the list of existing fork and what characterize them
+here is expected to take place the list of existing and identified forks with a description that characterize them
 
