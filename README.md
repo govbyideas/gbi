@@ -3,6 +3,11 @@
 ## Reading the document
 The full document is readable [here online](https://govbyideas.github.io/gbi/)
 
+## Licensing
+This HTML document and associated files (drawings,...) are licensed under the GPLv3 (Gnu General Public License). 
+In short you are allowed to develop its content and distribute copies of your work based on this
+document as defined in by this [license terms](...).
+
 ## Feedback, Remarks, Proposals
 This document is to be seen as a seed from where a tree of different flavors is wished to arise.
 As there is no reason that we all share the same way to develop this seed, the objective is to list
