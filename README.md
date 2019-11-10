@@ -16,7 +16,7 @@ but as many as necessary for any group of people be able to choose the fruit tha
 matches their taste.
 
 I suggest using the [Issues menu](https://github.com/govbyideas/gbi/issues)
-above to create discussions (or report typos...). Before creating
+above to create discussions (or report typos...). But before creating
 your issue, check that one is not already open about your point, you should be able to participate
 in any open issues and its related discussion.
 
