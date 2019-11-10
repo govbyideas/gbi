@@ -18,7 +18,7 @@ in any open issues and its related discussion.
 At a time, any issue will be closed. I see different fates but this is not limitative:
 - either the request/topic ends by being integrated in this seed document, because it has been seen as
 unrestrictive for any development branch,
-- or the issue owner (or a group of people) decides to fork this repository and create their own version
+- or the issue owner (or a group of persons) decides to fork this repository and create their own version
 of this document. I will then add below a pointer to this fork with a description that characterize
 the reason of the fork,
 - or the issue will be closed because after discussion the proposal does finally matches its place in the
