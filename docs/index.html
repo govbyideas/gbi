@@ -1123,23 +1123,70 @@ notified by such idea extension, but still a majority of electors
       Professional politician could well emerge but should be sanctioned
       the same as newcomers and be banned forever from the role if they
       failed (condemned for corruption, abuse...) even if their weight
-      was very high over time.
+      had increased a lot over time.
     </p>
 
     <p align="justify">
-      Any candidate for an election as well as any citizen should be able
+      A first approach could be to have loto-like election, this would allow
+      any candidate for an election as well as any elector to be able
       to assist to the selection process. It could even be broadcasted to
       public media. Each selection  must be performed under the control of a bailiff
       using a mechanical machine (not computer science based here, as there
       is no way to control from the outside the fairness of the random
       selection). This requires physical presence of the bailiff to assist to the random
       selection and a set of official mecanical machines, controlled regularly for they
-      fairness (see loto system for example). There could be every day a batch
+      fairness (see loto system broadcasted on TV). There could be every day a batch
       of candidate selections for their corresponding set of ideas, maybe even
       several bailiff in parallel doing that selection or different sets of ideas.
-      Public announcements would be done some days before about the concerned selections,
+      Public announcements would be done some days before the concerned selections,
       in order for people to be able to control its execution flow.
-      In particular the candidates could be notified of their date/time of selection.
+      In particular the candidates could be notified of their date/time of selection. Well
+      you bet, this will not scale when the number of ideas will increase... So let's see the
+      second approach instead:
+    </p>
+
+    <p align="justify">
+      To address scalability, we could rather rely on a two levels selection process and
+      use computer science to provide seamless automated election without compromising
+      the randomness of the selection process doing the following way:
+      <li>
+	<it> First a random assignation of candidates is done to a different number (or numbers, if the notion
+	  of weight is retained), this assignation is only known by a first given organism. The candidates
+	  would receive a message containing their number but unreadable without a key that would be sent
+	  to a second independent organism.</it>
+	<it>
+	  This secnd organisme, over storing for the duration of the selection the secret key that will
+	  let the candidates see the number(s) they have been assigned to once the selection will be done,
+	  would also be in charge of randomly selecting a number in the given range. This second organism
+	  would has absolutely no knowledge of the condidate to which numbers have been assigned.
+	</it>
+	<it>
+	  The first organism will have the duty to control the randomness of over time and could
+	  trigger an alert if the deviation exceed a given threshold in regard to the expected random
+	  generator nature used.
+	</it>
+	<it>
+	  For each selection, the second organism publishes the randomly selected number with the secret
+	  key the candidates will be able to use to control what was their assigned number(s) for that selection.
+	</it>
+	<it>
+	  the first organism reading the result can design the selected candidate and all candidates
+	  with the knownledge of the secret key can be sure the first organism has not been deprived
+	  from their role as selected candidate.
+	</it>
+      </li>
+      In that way, the first organism cannot reassign the assigned numbers knowing the result,
+      candidates cannot influence the result as they would know their assigned number(s) only after
+      the number would have be selected, but they can still validate the number they were assigned to,
+      and the second organism could not know which candiate a given random number would select for any
+      particular selection.
+    </p>
+
+    <p align="justify">
+      For the voting system example provided in annex, the <i>EIB</i> could be the
+      organism in charge of random generation, the <i>VA</i> the one in charge
+      of secretely assigning numbers to candidates and controlling he randomness
+      of the generated randomness.
     </p>
 
     <h1>Return to civil life</h1>
